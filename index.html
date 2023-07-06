@@ -97,8 +97,8 @@
 
   <!-- container text -->
 
-  <div class="container-fluid h-auto py-5 w-50">
-    <div class="text-main text-center text-dark">
+  <div class="container-fluid h-auto py-5 flex-wrap">
+    <div class="text-main text-center text-dark w-50 m-auto">
         <p class="fw-light fs-5"><em>Bienvenue au</em></p>
         <h1>Burger Code de Roubaix</h1>
         <p>Votre fast-food familial vous accueille du mardi au dimanche au 20 rue du Luxembourg à Roubaix.</p>
@@ -111,11 +111,11 @@
   </div>
 
   <!-- section 2 col -->
-  <div class="container-fluid" style="height: 200px">
-    <div class="row gap-0 h-100 w-auto">
+  <div class="container-fluid mb-5 flex-wrap " style="max-height: 400px">
+    <div class="row h-100 w-auto">
         <div class="col-lg-6 col-sm-12 bg-warning text-center pt-5">
             <h2>Commandez en ligne !</h2>
-            <button type="button" class="btn btn-success px-3 py-1">Commandez sur Deliveroo</button>
+            <button type="button" class="btn btn-success mt-2 px-3 py-1">Commandez sur Deliveroo</button>
 
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -125,18 +125,85 @@
   </div>
 
   <!-- section cards  -->
-  <div class="container-fluid">
-    <div class="row">
-        <div class="card" style="width: 18rem;">
-            <img src="/Images/img-card-rapide.svg" class="card-img-fluid" alt="...">
-            <div class="card-body">
+  <div class="container-fluid card-section mb-5">
+       <div class="row d-flex justify-content-center mt-3 gap-4">
+        <div class="card">
+            <img src="/Images/img-card-rapide.svg" class="card-img" alt="rapide">
+            <div class="card-body bg-white">
               <h5 class="card-title">Un service rapide</h5>
               <p class="card-text">Nous savons que quand on a faim, notre patience a des limites ! Alors nous faisons notre maximum pour vous servir le plus rapidement possible.</p>
              </div>
           </div>
-    </div>
-  </div>
 
+   
+        <div class="card">
+            <img src="/Images/img-card-rapide (2).svg" class="img-fluid" alt="quality">
+            <div class="card-body bg-white">
+              <h5 class="card-title">La meilleure qualité</h5>
+              <p class="card-text">Nous selectionnons chaque ingrédient pour ses qualités et sa fraicheur. Vous êtes assurés de manger sainement, oui oui... enfin presque quand même.</p>
+             </div>
+          </div>
+    
+
+        <div class="card">
+            <img src="/Images/img-card-rapide (1).svg" class="card-img" alt="rapide">
+            <div class="card-body bg-white">
+              <h5 class="card-title">Un service chaleureux</h5>
+              <p class="card-text">Vous serez toujours accueillis dans la joie et la bonne humeur, nos clients sont comme des amis avec qui nous partageons un bon moment.</p>
+             </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- section 2 col new  -->
+
+    <div class="container-fluid mb-5" style="max-height: 400px">
+        <div class="row w-auto">
+            <div class="col-lg-6 col-sm-12 bg-dark text-light text-center pt-5">
+                <h2>Découvrez nos menus !</h2>
+                <button type="button" class="btn btn-warning mt-2 pt-1 py-1">Nos menus</button>
+    
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <img src="/Images/restaurant-interieur.jpg" alt="interieur" class="w-auto">
+            </div>
+        </div>
+      </div>
+
+
+      <!-- footer  -->
+      <div class="container-fluid footer1 bg-dark text-light">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-sm-12">
+                <span class="text-start text-light">© 2022 Burger Code, MyburgerCode</span>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                    <nav id="navbar-example2" class="navbar navbar-dark bg-dark">
+                              <ul class="nav nav-pills gap-2">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light border-4 border border-start-0 border-end-0 border-top border-bottom border-warning" href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Menus</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                            <div>
+                                <span>Rejoignez-nous sur les réseaux :</span>
+                                <img src="Images/facebook.png" alt="facebook">
+                                <img src="Images/instagram.png" alt="instagram">
+                            </div>
+                        
+            </div>
+
+        </div>
+    </div>
+        
 
 
 
