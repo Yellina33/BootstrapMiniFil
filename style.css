@@ -10,7 +10,6 @@ body {
 
 
 .navbar {
-    background-color: var(--bs-dark);
     height: auto;
     margin: auto;   
 }
@@ -34,6 +33,7 @@ h2 {
     font-size: 2rem;
     color: #fafafa
 }
+
 
 .card-section {
     width: 100%; 
