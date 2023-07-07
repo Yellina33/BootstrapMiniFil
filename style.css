@@ -3,23 +3,17 @@ body {
     background-color: #F3F3F3;
     font-size: 1rem;
     font-weight: 400;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
-.card-section {
-    width: 100%; 
-    height: 400px;
-      
-}
-
 .card {
-    width: 425px; 
-    height: auto;
+ 
+    /* height: auto; */
     padding-bottom: 15px;
     border-radius: 10px;
+    
    
 }
 
