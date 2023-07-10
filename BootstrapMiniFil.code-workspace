@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "BootstrapMiniFil",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BootstrapMiniFil",
+		"git.ignoreLimitWarning": true
+	}
+}
